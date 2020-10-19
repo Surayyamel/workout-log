@@ -19,7 +19,7 @@ hbs.registerPartials(partialsPath);
 // Homepage route
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'My workout log',
+        title: 'My Workout Log',
         name: 'Surayya',
     })
 });
@@ -27,7 +27,7 @@ app.get('', (req, res) => {
 // Legs route
 app.get('/quads', (req, res) => {
     res.render('quads', {
-        title: 'Quads',
+        title: 'Legs and quads',
         name: 'Surayya'
     })
 })
@@ -35,7 +35,7 @@ app.get('/quads', (req, res) => {
 // Push route
 app.get('/push', (req, res) => {
     res.render('push', {
-        title: 'Push', 
+        title: 'Shoulders and triceps', 
         name: 'Surayya'
     })
 })
@@ -51,7 +51,7 @@ app.get('/glutes', (req, res) => {
 // Pull route
 app.get('/pull', (req, res) => {
     res.render('pull', {
-        title: 'Pull', 
+        title: 'Back and biceps', 
         name: 'Surayya'
     })
 })

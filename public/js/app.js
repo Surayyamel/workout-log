@@ -1,1 +1,1 @@
-console.log('This is client side JS!')
+console.log('client side code')

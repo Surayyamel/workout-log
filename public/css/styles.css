@@ -1,0 +1,51 @@
+body {
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    text-align: center;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 16px;
+    color: gray;
+}
+
+header a:hover {
+    color: rgb(92, 92, 92);
+}
+
+header a:active {
+    color: black;
+}
+
+footer {
+    margin-bottom: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    font-style: italic;
+    color: gray;
+    font-size: 16px;
+    
+}
+
+footer a:hover {
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+
+footer a:active {
+    color: black;
+}
